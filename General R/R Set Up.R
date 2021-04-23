@@ -11,17 +11,39 @@ cat("\014") ## clean console
 
 # Package installation ----------------------------------------------------
 
-
+install.packages("remotes")
+install.packages("usethis")
+install.packages("devtools")
 install.packages("dslabs")
 install.packages("tidyverse")
 install.packages("ggplot2")
+install.packages("ggrepel")
+install.packages("ggthemes")
+install.packages("gridExtra")
+install.packages("dplyr")
+install.packages("RColorBrewer")
+install.packages("psych")
+install.packages("readr")
+install.packages("gtools")
+install.packages("lubridate")
+install.packages("rvest")
+install.packages("tidytext")
+install.packages("pdftools")
+install.packages("HistData")
+install.packages("broom")
+install.packages("Lahman")
+install.packages("dslabs")
+install.packages("reshape2")
+install.packages("lpSolve")
 
 
 
 # Loading packages --------------------------------------------------------
 
 
-
+library(remotes)
+library(usethis)
+library(devtools)
 library(dslabs) ## Used in the data science course 
 library(tidyverse)
 library(ggplot2)
