@@ -35,7 +35,7 @@ install.packages("Lahman")
 install.packages("dslabs")
 install.packages("reshape2")
 install.packages("lpSolve")
-
+install.packages("caret")
 
 
 # Loading packages --------------------------------------------------------
@@ -65,6 +65,7 @@ library(Lahman)
 library(dslabs)
 library(reshape2)
 library(lpSolve)
+library(caret)
 
 
 # Set working directory ---------------------------------------------------
