@@ -14,7 +14,7 @@ y <- heights$sex
 x <- heights$height
 
 # generate training and test sets
-set.seed(2, sample.kind = "Rounding") # if using R 3.5 or earlier, remove the sample.kind argument
+set.seed(2) #, sample.kind = "Rounding") # if using R 3.5 or earlier, remove the sample.kind argument
 test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)
 test_set <- heights[test_index, ]
 train_set <- heights[-test_index, ]
