@@ -51,6 +51,14 @@ y_hat <- ifelse(test_set$height > best_cutoff, "Male", "Female") %>%
 y_hat <- factor(y_hat)
 mean(y_hat == test_set$sex)
 
+
+# Assessment 2.1 ----------------------------------------------------------
+
+mnist <- read_mnist()
+
+ncol(mnist$train$images)
+
+
 # 2.2 ---------------------------------------------------------------------
 
 
